@@ -1,0 +1,4 @@
+#!/bin/bash
+#
+export DISPLAY=:0
+[[ -d "$SCREENSHOT_DIR" ]] && feh --randomize --bg-fill "$SCREENSHOT_DIR"
